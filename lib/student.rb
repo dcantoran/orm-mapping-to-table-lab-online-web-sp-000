@@ -36,7 +36,7 @@ class Student
   end 
   
   def self.create(name, grade, id = nil)
-    new_table = Student.new(name, grade, id = nil)
+    new_table = Student.new(name, grade)
     new_table.save 
     new_table
   end 
